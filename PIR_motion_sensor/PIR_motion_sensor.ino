@@ -22,7 +22,7 @@ void loop() {
     digitalWrite(led, LOW);
     delay(200);
     if(state == HIGH){
-      Serial.println("MOtion stopped.");
+      Serial.println("Motion stopped.");
       state = LOW;
       }
     } 
